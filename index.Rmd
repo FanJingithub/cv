@@ -193,7 +193,7 @@ Skills {#skills-new}
 --------------------------------------------------------------------------------
 
 
-- **Programming language**: Java, python, JavaScrip, R
+- **Programming language**: Java, python, JavaScript, R
 - **Algorithm**: design and optimize the classic algorithm (dynamic programming, graph theory, etc)
 - **Data analysis**: apply machine learning, use PyTorch to train the CNN (such as ResNet) 
 - **Software development**: android APP, simple website.

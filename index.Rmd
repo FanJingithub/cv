@@ -189,6 +189,14 @@ Contact {#contact}
 - <i class="fa fa-link"></i> https://blog.csdn.net/fjsd155
 - <i class="fa fa-phone"></i> (86) 18701968170
 
+Skills {#skills-new}
+--------------------------------------------------------------------------------
+
+
+- **Programming language**: Java, python, JavaScrip, R
+- **Algorithm**: design and optimize the classic algorithm (dynamic programming, graph theory, etc)
+- **Data analysis**: apply machine learning, use PyTorch to train the CNN (such as ResNet) 
+- **Software development**: android APP, simple website.
 
 
 Disclaimer {#disclaimer}
@@ -205,12 +213,7 @@ Main
 Jin Fan {#title}
 --------------------------------------------------------------------------------
 
-
-&nbsp;  
-
 I am broadly interested in oncology, bioinformatics, statistics, and computer science.
-
-&nbsp;  
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -219,22 +222,12 @@ Education {data-icon=graduation-cap data-concise=true}
 print_section(position_data, 'education')
 ```
 
-&nbsp;  
-&nbsp;  
-
 Research about Oncology {data-icon=chart-line}
 --------------------------------------------------------------------------------
-
 
 ```{r, results='asis', echo = FALSE}
 print_section(position_data, 'Oncology')
 ```
-
-&nbsp;  
-
-<br>
-
-&nbsp;  
 
 Computer Science {data-icon=laptop}
 --------------------------------------------------------------------------------

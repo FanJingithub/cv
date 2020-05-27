@@ -1,5 +1,5 @@
 ---
-title: "Guangchuang Yu's CV"
+title: "Jin Fan's CV"
 author: Guangchuang Yu
 date: "`r Sys.Date()`"
 output:
@@ -28,6 +28,7 @@ Biocpkg <- function (pkg) {
 
 library(glue)
 library(tidyverse)
+library(dplyr)
 
 # Set this to true to have links turned into footnotes at the end of the document
 PDF_EXPORT <- FALSE
@@ -171,12 +172,12 @@ Aside
 ================================================================================
 
 
-![logo](ygc.jpg){width=100%}
+![logo](FanJin.jpg){width=100%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
 if(PDF_EXPORT){
-  cat("View this CV online with links at _guangchuangyu.github.io/cv_")
+  cat("View this CV online with links at _FanJingithub.github.io/cv_")
 }
 ```
 
@@ -184,40 +185,11 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 
-- <i class="fa fa-envelope"></i> guangchuangyu@gmail.com
-- <i class="fa fa-twitter"></i> guangchuangyu
-- <i class="fa fa-github"></i> github.com/GuangchuangYu
-- <i class="fa fa-link"></i> guangchuangyu.github.io
-- <i class="fa fa-weixin"></i> biobabble
-- <i class="fa fa-phone"></i> (86) 13826432521
+- <i class="fa fa-envelope"></i> fanj13@fudan.edu.cn
+- <i class="fa fa-link"></i> https://blog.csdn.net/fjsd155
+- <i class="fa fa-phone"></i> (86) 18701968170
 
 
-
-Selected R packages {#skills}
---------------------------------------------------------------------------------
-
-NGS
-
-- ChIPseeker
-
-Ontology
-
-- clusterProfiler 
-- DOSE
-- enrichplot
-- GOSemSim
-
-Phylogeny
-
-- tidytree
-- treeio
-- ggtree
-
-Visualization
-
-- ggimage
-- ggplotify
-- seqcombo
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
@@ -230,22 +202,24 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Guangchuang Yu {#title}
+Jin Fan {#title}
 --------------------------------------------------------------------------------
 
 
 ```{r, results='asis'}
-intro_text <- glue("Professor of Bioinformatics at [Southern Medical University](http://www.smu.edu.cn/). I have developed more than 20 R packages, including ",
-  {Biocpkg("clusterProfiler")}, ", ", 
-  {Biocpkg("ChIPseeker")}, ", ",
-  {Biocpkg("treeio")}, " and ",
-  {Biocpkg("ggtree")}, 
-  ", to help biologists to explore and understand their data.")
+# intro_text <- glue("Professor of Bioinformatics at [Southern Medical University](http://www.smu.edu.cn/). I have developed more than 20 R packages, including ",
+#   {Biocpkg("clusterProfiler")}, ", ", 
+#   {Biocpkg("ChIPseeker")}, ", ",
+#   {Biocpkg("treeio")}, " and ",
+#   {Biocpkg("ggtree")}, 
+#   ", to help biologists to explore and understand their data.")
+
+intro_text <- "Introduciton ..."
 
 cat(sanitize_links(intro_text))
 ```
 
-I am broadly interested in bioinformatics, metagenomics, molecular evolution, data integration and visualization.
+I am broadly interested in oncology, bioinformatics, statistics, and computer science.
 
 
 
@@ -263,84 +237,6 @@ Education {data-icon=graduation-cap data-concise=true}
 
 ```{r, results='asis', echo = FALSE}
 print_section(position_data, 'education')
-```
-
-
-Certificate {data-icon=book}
---------------------------------------------------------------------------------
-
-```{r, results='asis', echo = FALSE}
-print_section(position_data, 'certificate')
-```
-
-
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-
-```{r}
-print_section(position_data, 'teaching_positions')
-```
-
-
-
-Grants  {data-icon=chart-line}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'grant')
-```
-
-
-
-Books {data-icon=book}
---------------------------------------------------------------------------------
-
-
-
-```{r}
-print_section(position_data, 'book_chapters')
-```
-
-
-
-Publications {data-icon=book}
---------------------------------------------------------------------------------
-
-::: aside
-
-```{r}
-profile = jsonlite::fromJSON("profile.json")
-
-  glue(
-
-"
-+ Citation = {profile$total_cites}
-+ H-index = {profile$h_index}
-+ I10-index = {profile$i10_index}
-
-"
-  ) %>% print()
-
-```
-
-![](citation.png)
-:::
-
-
-```{r}
-print_section(position_data, 'academic_articles')
-```
-
-
-
-Conference proceedings {data-icon=group}
---------------------------------------------------------------------------------
-
-
-
-```{r}
-print_section(position_data, 'presentation')
 ```
 
 

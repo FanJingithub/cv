@@ -182,9 +182,9 @@ Skills {#skills-new}
 --------------------------------------------------------------------------------
 
 
-- **Programming language**: Java, Python, R, and JavaScript
-- **Algorithm**: Algorithm design and optimization (dynamic programming, graph theory, etc)
-- **Data analysis**: Clinical statistics, machine learning, and CNN with PyTorch (such as ResNet)
+- **Programming language**: Java, Python, R, JavaScript, and C.
+- **Algorithm**: Algorithm design and optimization (dynamic programming, graph theory, etc).
+- **Data analysis**: Clinical statistics, machine learning, and CNN with PyTorch (such as ResNet).
 - **Software development**: Android APP, simple website.
 
 

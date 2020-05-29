@@ -1,5 +1,7 @@
 ## My pagedown rendered CV
 
+This project was forked from https://github.com/GuangchuangYu/cv  
+
 This repo contains the source-code and results of my CV built with the [pagedown package](https://pagedown.rbind.io) and a modified version of the 'resume' template. 
 
 The main files are:

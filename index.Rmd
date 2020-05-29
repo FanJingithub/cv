@@ -1,6 +1,6 @@
 ---
 title: "Jin Fan's CV"
-author: Guangchuang Yu
+author: Jin Fan
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -14,17 +14,6 @@ knitr::opts_chunk$set(
   results='asis', 
   echo = FALSE
 )
-
-
-CRANpkg <- function (pkg) {
-    cran <- "https://CRAN.R-project.org/package"
-    fmt <- "[%s](%s=%s)"
-    sprintf(fmt, pkg, cran, pkg)
-}
-
-Biocpkg <- function (pkg) {
-    sprintf("[%s](http://bioconductor.org/packages/%s)", pkg, pkg)
-}
 
 library(glue)
 library(tidyverse)
@@ -193,10 +182,10 @@ Skills {#skills-new}
 --------------------------------------------------------------------------------
 
 
-- **Programming language**: Java, python, JavaScript, R
-- **Algorithm**: design and optimize the classic algorithm (dynamic programming, graph theory, etc)
-- **Data analysis**: apply machine learning, use PyTorch to train the CNN (such as ResNet) 
-- **Software development**: android APP, simple website.
+- **Programming language**: Java, Python, R, and JavaScript
+- **Algorithm**: Algorithm design and optimization (dynamic programming, graph theory, etc)
+- **Data analysis**: Clinical statistics, machine learning, and CNN with PyTorch (such as ResNet)
+- **Software development**: Android APP, simple website.
 
 
 Disclaimer {#disclaimer}
@@ -213,7 +202,7 @@ Main
 Jin Fan {#title}
 --------------------------------------------------------------------------------
 
-I am broadly interested in oncology, bioinformatics, statistics, and computer science.
+<p style="font-size:0.80rem">I am interested in oncology, bioinformatics, statistics, and computer science.<p>
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------

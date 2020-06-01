@@ -1,0 +1,10 @@
+loc,title,institution,start,end,description_1,description_2,description_3,description_4,section,order
+复旦大学附属肿瘤医院,硕士，肿瘤学,上海,2018,9999,NA,NA,NA,NA,education,1
+复旦大学,学士，临床医学,上海,2013,2018,NA,NA,NA,NA,education,2
+中国计算机协会举办,2012年全国青少年信息学竞赛（NOIP）一等奖,NA,2012,2012,NA,NA,NA,NA,CS,1
+一个Android APP项目，曾获得云锋基金资助；获得复旦大学创新创业竞赛一等奖。,一键呼救：互联网急救APP,NA,2017,2017,NA,NA,NA,NA,CS,2
+一个手机APP，用于临床RCT的分层随机入组和管理。已投入使用2年，该平台已托管约20个RCT，包括上海复旦肿瘤、广东中山肿瘤、浙江省肿瘤等多家医院的临床研究。,RCT助手APP,NA,2018,2018,NA,NA,NA,NA,CS,3
+An automatic full-stack web frame to generate database system for clinical research. Demo: http://123.206.137.251:92/list  (UI is from others),[Performer: automatic generate code for per-form](https://github.com/FanJingithub/performer),NA,2019,2019,NA,NA,NA,NA,CS,4
+(First author) The results from integrated analysis have been validated in metabolic experiment partly to date (still ongoing).,Metabolomics and transcriptomics on predicting the response of neoadjuvant therapy for rectal cancer: pathway exploration and mechanism research,NA,NA,NA,NA,NA,NA,NA,Oncology,1
+(First author) Submitting.,A novel prognostic model incorporating carcinoembryonic antigen in 3-week or longer postoperative period for stage III colon cancer,NA,NA,NA,NA,NA,NA,NA,Oncology,2
+(Co-first author) Published in _Clin Colorectal Cancer_. Just a mini research with simple analysis.,The Impact of Chemotherapy Completion on the Efficacy of Irinotecan in the Preoperative Chemoradiotherapy of Locally Advanced Rectal Cancer: An Expanded Analysis of the CinClare Phase III Trial,NA,NA,NA,NA,NA,NA,NA,Oncology,4
